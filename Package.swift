@@ -13,6 +13,6 @@ let package = Package(
         .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0")
     ],
     targets: [
-        .target(name: "ImageViewer.swift", dependencies: []),
+        .target(name: "ImageViewer.swift", dependencies: ["SDWebImage"]),
     ]
 )
