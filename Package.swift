@@ -11,6 +11,5 @@ let package = Package(
     ],
     targets: [
         .target(name: "ImageViewer.swift", dependencies: []),
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
