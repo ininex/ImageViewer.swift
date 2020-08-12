@@ -9,6 +9,9 @@ let package = Package(
     products: [
         .library(name: "ImageViewer.swift", targets: ["ImageViewer.swift"])
     ],
+    dependencies: [
+        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0")
+    ],
     targets: [
         .target(name: "ImageViewer.swift", dependencies: []),
     ]
